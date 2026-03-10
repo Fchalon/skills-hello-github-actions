@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+    - name: Display message
+      ansible.builtin.debug:
+        msg: "Test de playbook ansible"
